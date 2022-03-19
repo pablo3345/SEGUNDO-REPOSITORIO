@@ -1,0 +1,23 @@
+<html>
+
+<head>
+
+
+
+</head>
+<body>
+
+<h1>Contactenos</h1>
+{% if form.errors %} {# si hay errores en el formulario me debes indicar con rojo#}
+<p style="color: red;">por favor revise este dato</p>
+
+{% endif %}
+<form action="" method="POST">{% csrf_token %} {# como no me crea el form lo creamos nosotros y creamos el token  #}
+  <table>
+      {{ form.as_table}}
+  </table>
+<input type="submit" value="Enviar">
+</form>
+</body>
+
+</html>

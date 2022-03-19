@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>{% block title %}{% endblock %} </title> {# con esto le digo a html que el titulo va a cambiar#}
+
+</head>
+<style>
+
+    #titulo{background: green;
+    text-align: center;
+    color: white;
+    }
+</style>
+<body>
+{% include "barra.html" %} {# esto es plantillas incrustadas #}
+<h1 id="titulo">Pildoras Informaticas</h1>
+<h3>CURSO DE INFORMATICA</h3>
+
+{% block content %}
+{% endblock %} {# con esto le digo a html que dentro estas dos etiquetas el bloque de contenido va a cambiar#}
+
+
+<p>CURSOS GRATUITOS GRACIAS POR SU VISITA!!!</p>
+
+
+</body>
+
+</html>

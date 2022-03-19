@@ -1,0 +1,46 @@
+<html>
+
+<head>
+
+<title>Contactar </title>
+
+</head>
+<style>
+    .asunto{
+     margin-left: 30px;
+    }
+    .email{
+    margin-left: 39px;
+    }
+    .area{
+   margin-left: 23px;
+    }
+    .boton{
+    margin-left:381px;
+    }
+
+
+</style>
+
+<body>
+<h>Contactenos:</h>
+<form action="/contacto/" method="POST">{% csrf_token %} {# POST porque el usuario al apretar enviar me llega a mi como correo electronico #}
+    <p class="asunto">ASUNTO:<input type="text" name="asunto"></p> {# en name despues voy a necesitar recuperar ese dato#}
+    <p class="email">EMAIL:  <input type="text" name="email"></p>
+    <p class="area">MENSAJE:<textarea name="mensaje"  rows="15" cols="45"></textarea></p>
+    <input class="boton" type="submit" value="Enviar">
+
+
+
+</form>
+
+
+
+</body>
+
+
+
+
+
+
+</html>
