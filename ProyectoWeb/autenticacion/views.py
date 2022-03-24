@@ -1,12 +1,12 @@
 from django.shortcuts import render, redirect
 from django.views.generic import View
 from django.contrib.auth.forms import UserCreationForm
-from django.contrib.auth import login
+from django.contrib.auth import login, logout
 from django.contrib import messages
 # Create your views here.
 
 
-class VRegistro(View):
+class VRegistro(View): # una clase que se transforma en vista
    def get(self, request): # el get es para ofrecernos el formulario es lo que renderice el formulario, ahora le tenemos que decir que renderice el formulario para verlo y lo hacemos en la funcion get que es la encargada de mostrarlo
       form= UserCreationForm # form viene de formulario
       return render(request, "registro/registro.html", {"form": form}) # ponemos la ruta para que busque el html
@@ -18,10 +18,17 @@ class VRegistro(View):
         usuario = form.save() #creamos una variable usuario, donde se va a almacenar la informacion del formulario, con esto save() se almacenan los datos en la base de datos de usuarios
 
         login(request, usuario) # una vez que lo guardo en la base de datos, quiero que el usuario este logeado
-        return redirect('Home') # nos redirecciona al home
+        return redirect('Home') # nos redirecciona a la url home
 
       else:
          for msg in form.error_messages: # un for para recorrer los errores que haya en el formulario
              messages.error(request, form.error_messages[msg]) #esto es para mostrarme ese error, [msg] esto es porque es un array de errores, msg para mostrar la ubicacion del error en concreto
 
          return render(request, "registro/registro.html", {"form": form}) # para que me muestre el formulario con los errores, esta fuera del for
+
+
+
+
+def cerrar_sesion(request): #una nueva vista
+    logout(request)
+    return redirect('Home')
