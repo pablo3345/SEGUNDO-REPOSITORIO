@@ -11,7 +11,8 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
-
+from django.contrib.messages import constants as mensaje_de_error
+#con as le doy un alia y utilizo "mensaje_de_error"
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -147,3 +148,14 @@ EMAIL_HOST_PASSWORD = "tspablols" #contraseña
 ########################################################
 
 CRISPY_TEMPLATE_PACK= 'bootstrap4' # es para decirle que cargue este paquete crispy en boostrap4
+
+MESSAGE_TAGS = { # TAGS viene de etiqueta "debug" nombro la etiqueta, abajo escribi todas las etiquetas x si mas adelante las voy a usar
+
+mensaje_de_error.DEBUG: "debug",
+mensaje_de_error.INFO: "info",
+mensaje_de_error.SUCCESS: "success",
+mensaje_de_error.WARNING: "warning",
+mensaje_de_error.ERROR: "danger",
+
+
+}

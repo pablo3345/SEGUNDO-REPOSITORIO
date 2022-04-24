@@ -17,6 +17,19 @@
 
      {% csrf_token %}  <!-- sirve para evitar problemas de seguridad !-->
 
+   {% if messages%}  <!-- si hay algun tipo de mensajes a la hora de validar este formulario, me tienes que recorrer con un for!-->
+
+      {% for mensaje in messages %} <!--  recorro con un for los mensajes de error, advertencia etc!-->
+      <spam class ="alert alert-{{mensaje.tags}}">{{mensaje}} </spam>
+
+
+
+      {% endfor %}
+
+      {% endif %}
+
+      <br/><br/>
+
       {{form|crispy}}     <!-- aca  contruimos el formulario con la variable form asi de simple, y con │crispy le decimos al formulario que use como filtro crispy !-->
       <button type="submit" class="btn btn-success"> Login <!-- añado el boton para enviar el formulario con la clase boostrap para darle estilo al boton !-->
 
