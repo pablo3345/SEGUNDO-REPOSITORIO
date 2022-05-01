@@ -42,7 +42,7 @@ def logear(request):
             nombre_usuario = form.cleaned_data.get("username") #dame la informacion que tengo guardado en el cuadro de texto que por defecto se llama "usurname"
             contraseniaa = form.cleaned_data.get("password")
             usuario = authenticate(username= nombre_usuario, password = contraseniaa) # la forma de autenticar el usuario
-            if usuario is not None: # si hay algo como unusuario y contraseña,  entonces me haces un login
+            if usuario is not None: # si hay algo como un usuario y contraseña,  entonces me haces un login
                 login(request, usuario)
                 return redirect('Home')
             else:

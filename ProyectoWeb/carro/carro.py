@@ -1,12 +1,12 @@
 class Carro: # es una clase
     def __init__(self, request): #el constructor vamos a recibir por parametro el self y la peticion(request)
-        '''self.request = request # aca ya tenemos en la variable de tipo request almacenada la peticion
+        self.request = request # aca ya tenemos en la variable de tipo request almacenada la peticion
         self.session = request.session #con esto tenemos iniciada la sesion, por si me voy del carro y vuelvo despues (cuando le doy atras al google)
         carro = self.session.get("carro")  #ahora debemos construir un carro de la compra para esta sesion, que el usuario habra iniciada
         if not carro:             #esto es si no hay carro, me lo creas
-            carro= self.session["carro"]= {} #un diccionario vacio
-       # else:'''
-        self.carro = carro # si el usuario estaba rellenando el carro y se fue de la pagina por cualquier motivo y despues vuelve, (bueno es el carro de la sesion que ya habia y esta fuera del if)
+          carro= self.session["carro"]= {} #un diccionario vacio
+
+        self.carro = carro # si el usuario estaba rellenando el carro y se fue de la pagina por cualquier motivo y despues vuelve, (bueno es el carro de la sesion que ya habia y esta fuera del if, con esto siempre esta creado el carro)
 
     def agregarProducto(self, producto):
         if(str(producto.id) not in self.carro.keys()): #funcion string para pasar el id del producto a string, con el metodo keys veo las clave almacenadas en el carro, esto significa que si el producto no esta en el carro lo agrega(xq no puedo agregar un producto que ya esta en el carro), si el id del producto no esta en las claves de nuestro carro

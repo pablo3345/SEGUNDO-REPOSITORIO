@@ -14,9 +14,16 @@
 
        <div style="float:right;"> <!-- aca va a ir el carrito de compra antes del for !-->
 
+           {% if request.user.is_authenticated %}  <!-- si el usuario esta autenticado me muestras el carro y si no, no me lo muestras !-->
+
+              {% include "carro/widget.html" %} <!-- con esto me importa el widget !-->
+
+           {% else %}
+
+              <div class="alert alert-danger text-center">Hacer login para ver Carro</div>
 
 
-           {% include "carro/widget.html" %} <!-- con esto me importa el widget !-->
+           {% endif %}
        </div>
 
 
