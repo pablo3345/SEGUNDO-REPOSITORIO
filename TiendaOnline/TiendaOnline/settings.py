@@ -23,6 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'f43+rx))5n-8tluqj-nvrd24o!r9uim*c+nt0vyi^vp9nkqfw9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+
 DEBUG = True
 
 ALLOWED_HOSTS = []
@@ -82,6 +83,7 @@ DATABASES = {
         'PASSWORD': '1234',
         'HOST': '127.0.0.1',
         'DATEBASE_PORT': '5432',
+       # 'DATEBASE_PORT': '55647',
 
     }
 }

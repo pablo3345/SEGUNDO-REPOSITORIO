@@ -6,7 +6,7 @@ from django.db import models
 class CategoriaProducto(models.Model):
     nombre = models.CharField(max_length=50)
     created = models.DateTimeField(auto_now_add=True)
-    updated = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now_add=True) # creo que aca auto_now es si el add
 
     class Meta:
         verbose_name = "categoriaProducto"   # para el nombre en singulas
@@ -23,7 +23,7 @@ class Producto(models.Model):
     precio = models.FloatField()
     disponibilidad= models.BooleanField(default=True) # para decirle si un producto esta disponible o no, con default=True le digo que por defecto este disponible el producto
     created = models.DateTimeField(auto_now_add=True)
-    updated = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now_add=True) # corregir aca update va sin _add (averiguar)
 
     class Meta:
         verbose_name = "Producto"
