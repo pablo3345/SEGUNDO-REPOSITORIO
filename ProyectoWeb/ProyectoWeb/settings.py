@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     'carro',
     'autenticacion',
     'crispy_forms',
+    'pedidoss',
+
 
 ]
 
@@ -143,7 +145,7 @@ EMAIL_USE_TLS= True # protocolo de seguridad que se usan en el servidor de corre
 # dependiendo de cual utilice para usar un puerto u otro
 EMAIL_PORT = 587 #el puerto que se va a utilizar para enviar los correos electronicos, en el caso de usar TLS con gmail es 587
 EMAIL_HOST_USER="pabloandresperuchi" #usuario
-EMAIL_HOST_PASSWORD = "tspablols" #contraseña
+EMAIL_HOST_PASSWORD = "zukkhovdcbzlhoqp" #contraseña
 
 ########################################################
 

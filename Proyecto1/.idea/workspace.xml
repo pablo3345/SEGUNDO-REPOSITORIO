@@ -4,13 +4,10 @@
     <list default="true" id="eee79ca6-933a-4ce1-821d-18a7255ba738" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProyectoWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoWeb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProyectoWeb/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoWeb/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProyectoWeb/tienda/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoWeb/tienda/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoWeb/ProyectoWeb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoWeb/ProyectoWeb/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TiendaOnline/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TiendaOnline/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TiendaOnline/TiendaOnline/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TiendaOnline/TiendaOnline/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TiendaOnline/gestionPedidos/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TiendaOnline/gestionPedidos/migrations/0002_auto_20200620_1925.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TiendaOnline/gestionPedidos/migrations/0003_auto_20200621_2003.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TiendaOnline/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../TiendaOnline/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TiendaOnline" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProyectoWeb" />
     <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
   </component>
   <component name="RunDashboard">

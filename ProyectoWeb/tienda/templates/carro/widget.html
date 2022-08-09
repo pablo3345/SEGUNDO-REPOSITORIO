@@ -101,7 +101,17 @@
 
 
     </tr>
+   {% if request.session.carro.items %} <!-- esto es para comprobar si hay producto en el carro xq el boton si no hay productos en el carro deberia no aparecer, session es de la sesion abierta !-->
+    <tr>
 
+        <td colspan="3" style="text-align: center">  <!-- colspan="3" es para que el boton ocupe las 3 columnas de la tabla !-->
+
+          <a href="../pedidoss" class ="btn btn-success">Hacer Pedido </a> <!-- btn btn-success es una clase boton de bootstrap !-->
+        </td>
+
+
+    </tr>
+    {% endif %}
 
 
 

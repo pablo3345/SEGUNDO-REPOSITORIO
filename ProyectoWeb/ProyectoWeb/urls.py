@@ -25,6 +25,8 @@ urlpatterns = [
     path('autenticacion/', include("autenticacion.urls")),
     path('tienda/', include("tienda.urls")),
     path('carro/', include("carro.urls")),
+    path('pedidoss/', include("pedidoss.urls")),
+
     path('', include('ProyectoWebApp.urls')), #aca enlazo las urls del Proyecto con la de la Aplicacion
 
 

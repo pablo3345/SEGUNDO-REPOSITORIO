@@ -7,7 +7,7 @@ from django.contrib.auth.models import User
 class Categoria(models.Model):
     nombre = models.CharField(max_length=50)
     created = models.DateTimeField(auto_now_add=True)  # aca guardamos la fecha que se creo un servicio
-    updated = models.DateTimeField(auto_now_add=True)  # si este servicio se ha modificado, guardamos la fecha que se modifico
+    updated = models.DateTimeField(auto_now_add=True)  # si este servicio se ha modificado, guardamos la fecha que se modifico, corregirlo xq esta mas escrito
 
     class Meta:
         verbose_name = 'categoria'  # esto sirve para especificar el nombre que quiero que tenga el modelo dentro de la base de datos

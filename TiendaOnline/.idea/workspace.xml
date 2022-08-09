@@ -4,13 +4,12 @@
     <list default="true" id="bfaf0a12-8dac-4249-bfdc-ac5b12b91d6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Proyecto1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProyectoWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoWeb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoWeb/ProyectoWeb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoWeb/ProyectoWeb/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoWeb/autenticacion/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoWeb/autenticacion/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProyectoWeb/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoWeb/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProyectoWeb/tienda/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoWeb/tienda/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TiendaOnline/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TiendaOnline/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionPedidos/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionPedidos/migrations/0002_auto_20200620_1925.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionPedidos/migrations/0003_auto_20200621_2003.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
