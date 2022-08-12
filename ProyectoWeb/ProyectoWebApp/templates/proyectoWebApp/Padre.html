@@ -60,7 +60,7 @@
           <li class="nav-item {% if request.path == '/contacto/' %}active{% endif %}  px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="{% url 'Contactos' %}">Contacto</a>
           </li>
-          <li class="nav-item {% if request.path|slice:':6' == '/blog/' %}active{% endif %} px-lg-4">
+          <li class="nav-item {% if request.path|slice:':6' == '/blog/' %}active{% endif %} px-lg-4"> <!-- slice:':6' con esto le digo que las 6 primeras palabras de la url del navegador me marque en blanco el boton se usa cuando la url del navegador son extensas -->
             <a class="nav-link text-uppercase text-expanded" href="{% url 'Blog' %}">Blog</a>
           </li>
          
