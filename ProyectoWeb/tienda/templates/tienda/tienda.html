@@ -9,7 +9,16 @@
 
 <body>
 
+
 {% block content %}
+<div>
+{% if "valido" in request.GET%}
+
+    <p style="color: white; text-align:center;">El pedido se ha realizado correctamente, Gracias!!!</p>
+
+
+    {% endif %}
+          </div>
    <div class="container">
 
        <div style="float:right;"> <!-- aca va a ir el carrito de compra antes del for !-->

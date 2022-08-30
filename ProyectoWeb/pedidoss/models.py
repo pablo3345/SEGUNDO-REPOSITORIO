@@ -3,11 +3,17 @@ from django.db import models
 from django.contrib.auth import get_user_model
 
 
+from carro.context_processor import importe_total_carro
+
+
 # Create your models here.
 from tienda.models import Producto
 from django.db.models import F, Sum, FloatField
 
+
+
 User = get_user_model() # nos va a devolver el usuario que esta logeado, el usauario activo
+
 
 class Pedido(models.Model):
 
@@ -41,6 +47,9 @@ class LineaPedido(models.Model):
     pedido = models.ForeignKey(Pedido, on_delete= models.CASCADE)
     cantidad = models.IntegerField(default=1) # por defecto le damos el valor de 1
     create_at = models.DateTimeField(auto_now_add=True)
+
+
+
 
     def __str__(self):
         return f'{self.cantidad} unidades de {self.producto.nombre}' # la f es de formato

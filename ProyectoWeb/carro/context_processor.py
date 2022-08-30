@@ -1,3 +1,5 @@
+
+
 def importe_total_carro(request):
     total=0 #esta es la variable global
     if request.user.is_authenticated: # para saber si el usuario esta autenticado, debo logearme para que me aparezca el total
