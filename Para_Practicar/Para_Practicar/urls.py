@@ -15,9 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.urls import path, include
 from Para_Practicar import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home, name ='Home'),
+
+    path('personas/', include("Persona.urls")),
+
 ]

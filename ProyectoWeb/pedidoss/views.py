@@ -23,7 +23,7 @@ from django.template.loader import render_to_string
 #@login_required(login_url="autenticacion/logear") #especificamos la url de logear por si el usuario no esta logeado y quiera acceder entonces este decorador lo lleva a la url de logear, esto es si el carro aparece siempre visible
 def procesar_pedido(request):
 
-    pedido= Pedido.objects.create(user=request.user) # esto es el usuario que esta dando de alta este pedido
+    pedido= Pedido.objects.create(user=request.user) # esto es el usuario que esta dando de alta este pedido, cuando llame a esta funcion se va a crear
     carro=Carro(request) # con esto ya tengo el carro para recorrerlo con un for
 
 
@@ -72,7 +72,14 @@ def procesar_pedido(request):
 
 
 
+
+
+
     #messages.success(request, "El pedido se ha realizado correctamente")
+
+
+
+
 
 
 

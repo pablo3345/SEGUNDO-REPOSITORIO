@@ -15,11 +15,14 @@ def contacto(request):
             email = request.POST.get("email")
             contenido = request.POST.get("contenido")
 
+            #nombreParaEliminar = formulario_Contacto.cleaned_data.get("nombre") # solo hice esto para probar a ver si obtengo solo el nombre del formulario
+
             email=EmailMessage("Mensaje desde app Django ProyectoWeb", # el asunto del correo cuando lo recibo
             "El usuario con nombre {} con direccion {} escribe lo siguiente:\n\n {}".format(nombre, email, contenido), "", ["pabloandresperuchi@gmail.com"], reply_to=[email]) # las "" no pongo nada xq ya se que el mail viene de la aplicacion, el reply_to significa que puedo responderle al correo que me envian
 
             try:
                 email.send() # creiria que este email se relaciona solo con email=EmailMessage, los otros email deben ser del formulario
+
                 return redirect("/contacto/?valido") #le paso por parametro la palabra valido en la url para hacer un if en el html con la palabra valido, y me aparezca el mensaje que la informacion se envio correctamente
 
 

@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfaf0a12-8dac-4249-bfdc-ac5b12b91d6b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Para_Practicar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Para_Practicar/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Proyecto1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProyectoWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoWeb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProyectoWeb/ProyectoWeb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoWeb/ProyectoWeb/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProyectoWeb/autenticacion/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoWeb/autenticacion/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoWeb/contacto/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoWeb/contacto/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProyectoWeb/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoWeb/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaOnline/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TiendaOnline/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +29,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProyectoWeb" />
+    <property name="last_opened_file_path" value="C:/Tercer-repositorio/TERCER-REPOSITORIO/guardarFormulario" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
