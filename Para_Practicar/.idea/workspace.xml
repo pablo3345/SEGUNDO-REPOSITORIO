@@ -4,15 +4,11 @@
     <list default="true" id="a021ed22-cb48-46be-a864-bb4428a24442" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Para_Practicar/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Para_Practicar/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Para_Practicar/templates/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Para_Practicar/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Para_Practicar/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persona/templates/Persona/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Persona/templates/Persona/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persona/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Persona/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persona/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Persona/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proyecto1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProyectoWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoWeb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProyectoWeb/contacto/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoWeb/contacto/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProyectoWeb/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoWeb/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProyectoWeb/pedidoss/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoWeb/pedidoss/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TiendaOnline/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TiendaOnline/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

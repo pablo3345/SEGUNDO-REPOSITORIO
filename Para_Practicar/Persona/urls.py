@@ -11,7 +11,8 @@ urlpatterns = [
 
 
 
-   path('', views.guardarPersona, name="Guardar"),
+   path('', views.mostrar, name="Mostrar"),
+   path('guardar', views.guardar, name="Guardar"),
 
 
 

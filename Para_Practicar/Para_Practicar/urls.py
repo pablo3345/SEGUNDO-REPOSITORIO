@@ -21,6 +21,6 @@ from Para_Practicar import views
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    path('personas/', include("Persona.urls")),
+    path('', include('Persona.urls')),
 
 ]

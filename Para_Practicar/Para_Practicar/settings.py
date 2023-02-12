@@ -57,7 +57,7 @@ ROOT_URLCONF = 'Para_Practicar.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'Para_Practicar/templates'),], # pongo esto cuando me aparece que no encuentra la o no existe la pagina html
+        'DIRS': [os.path.join(BASE_DIR, 'Para_Practicar/templates'),], # pongo esto cuando me aparece que no encuentra la o no existe la pagina htmlo encuentra la o no existe la pagina html
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
